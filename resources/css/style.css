@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    color: white;
 }
 
 header{
@@ -9,7 +10,7 @@ header{
     text-align: center;
     color: white;
 }
-header p a{
+header p a,a{
     color: aquamarine;
     font-size: 16px;
     text-align: center;
@@ -17,4 +18,31 @@ header p a{
 .video video{
     display: block;
     margin: 0 auto;
+}
+h2{
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+}
+p{
+    font-family: Verdana;
+    font-size: 21px;
+    color: gray;
+    text-align: center;
+}
+.ad1 img{
+    display: block;
+    margin: 0 auto;
+}
+footer img{
+    display: block;
+    margin: 0 auto;
+    
+   padding-top:5%
+
+}
+.ending p{
+    text-align: right;
+    color: grey;
 }
